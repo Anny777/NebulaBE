@@ -1,0 +1,169 @@
+﻿:-webkit-full-screen {
+    background-image: url('images/background4.png');
+}
+
+:-moz-full-screen {
+    background-image: url('images/background4.png');
+}
+
+body {
+    /*padding-top: 50px;
+    padding-bottom: 20px;*/
+    background-image: url('../Content/images/background4.png');
+    background-attachment: fixed;
+    background-size: 10%;
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    max-width: 1350px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+td.bl {
+    border-left: 5px dotted gray;
+    vertical-align: top;
+    text-align: center;
+}
+
+td.bt {
+    border-top: 5px dotted gray;
+    vertical-align: top;
+    text-align: center;
+}
+
+td.br {
+    border-right: 5px dotted gray;
+    vertical-align: top;
+    text-align: center;
+}
+
+td.bb {
+    border-bottom: 5px dotted gray;
+    vertical-align: top;
+    text-align: center;
+}
+
+.tableBase {
+    border-radius: 10px;
+    /*background: #42b6ca;*/
+    background-image: url('images/freeTable.jpg');
+    color: #b43c48;
+    text-align: center;
+    font-size: 70pt;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+    .tableBase.rectangle {
+        width: 150px;
+        height: 200px;
+    }
+
+    .tableBase.square {
+        width: 150px;
+        height: 150px;
+    }
+
+.busy {
+    background-image: url('images/busyTable.jpg');
+    color: #fbe3c9;
+}
+
+.containerForMenu {
+    float: right;
+    width: 50%;
+    background-color: rgba(255,255,255,0.65);
+    border-radius: 10px;
+}
+
+.dish {
+    display: inline-block;
+}
+
+.nameDish {
+    font-style: oblique;
+    font-family: serif;
+    font-size: 14pt;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dishInfo {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+
+.menu {
+    /*display: list-item;
+    height: 50px;
+    margin-left: 30px;*/
+    padding: 10px;
+}
+
+    .menu table {
+        position: absolute;
+        display: none;
+        background-color: white;
+        text-align: left;
+        margin-left: 380px;
+        margin-top: -60px;
+    }
+
+.formCheck {
+    float: left;
+    /*width: 450px;*/
+}
+
+    .formCheck table {
+        background-color: rgba(255, 255, 255, 0.65);
+        width: 40px;
+        border-radius: 10px;
+        
+    }
+
+.categories {
+    float: right;
+    width: 50%;
+    min-width: 100px;
+}
+
+.categoriesDiv {
+    background-color: white;
+    float: left;
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+.formKitchen {
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 300px;
+    display: inline-block;
+}
+
+

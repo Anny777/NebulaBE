@@ -3,3 +3,17 @@
 ################################################################################
 
 /packages
+/Nebula.mm
+/Nebula/Views
+/Nebula/obj/Release/Package/PackageTmp/Views
+*.cache
+/Nebula/obj/Release/ProjectOrderFood.csproj.CopyComplete
+/Nebula/obj/Release/TransformWebConfig
+/.vs
+/Auto_Order
+/Nebula/.vs
+/Nebula/bin
+/Nebula/Nebula
+/Nebula/obj
+/Nebula/ClassDiagram.cd
+/Nebula/Content/images

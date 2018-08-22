@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Pick up the token extension", 
+  "version": "1.0", 
+  "description": "Pick up the token extension", 
+
+  "content_scripts": [
+    {
+      "matches": [ "*://lk.formula360.ru/*" ],
+      "js": ["extension.js"],
+	  "run-at": "document_end"
+    }
+  ],
+  "permissions": [
+    "tabs", 
+    "https://lk.formula360.ru/*",
+    "https://www.vip-33.ru/*"
+  ],
+  "browser_action": { 
+    "default_title": "Закрыть чек", 
+	"default_popup": "formCheck.html"
+  },
+  "web_accessible_resources": [
+  "*.js"
+  ]
+}
+ 
+
